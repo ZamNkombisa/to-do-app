@@ -1,0 +1,26 @@
+/* Styles for todo-container */
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+  }
+  
+  /* Styles for todo-text */
+  .todo-text {
+    flex: 1;
+    margin-right: 8px;
+  }
+  
+  /* Styles for completed */
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  /* Styles for todo-button */
+  .todo-button {
+    margin-left: 8px;
+  }
+  
